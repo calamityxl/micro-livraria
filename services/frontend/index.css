@@ -17,6 +17,7 @@ body {
     color: hsl(192, 17%, 99%) !important;
     padding-top: 2rem;
     line-height: 1.5;
+    height: 100px !important;
 }
 
 .features {
@@ -72,3 +73,8 @@ body {
         min-height: 250px;
     }
 }
+
+.custom-hero {
+    background-color: #ff69b4; 
+}
+

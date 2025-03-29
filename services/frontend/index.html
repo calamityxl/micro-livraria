@@ -9,9 +9,23 @@
         <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+        <style>
+            .custom-hero {
+                background-color: #df86b2; 
+            }
+            .footer-text {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                font-family: monospace;
+                font-size: 18px;
+                color: #000; /
+                text-align: right;
+            }
+        </style>
     </head>
     <body>
-        <section class="hero is-info is-small">
+        <section class="hero custom-hero is-small">
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <p class="title">Micro Livraria</p>
@@ -25,7 +39,16 @@
             <div class="columns books"></div>
         </section>
 
-        <footer class="footer has-text-centered">Feito com ❤️ na UFMG</footer>
+        <footer class="footer has-text-centered">
+            Feito com ❤️ na UFMG
+            <p>Trabalho modificado por Lorrana de Carvalho e Nicole Forsin para a disciplina de ESII. Todos os créditos para a UFMG!</p>
+        </footer>
+
+        <div class="footer-text">
+            ∧,,,∧<br>
+        (  ̳• · • ̳)<br>
+            /    づ♡ 
+        </div>
 
         <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
